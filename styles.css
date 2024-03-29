@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 25%;
+  height: 60%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.box img {
+  width: 80%;
+  height: 60%;
+  margin-top: 1.5rem;
+}
+
+.box h1 {
+  font-size: 2.5rem;
+}
+
+.box p {
+  font-size: 1.5rem;
+}
